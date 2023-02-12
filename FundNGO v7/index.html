@@ -1,0 +1,3061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FundNGO - Connecting People and NGOs</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 class="p-3"></h1>
+
+  <script type="text/javascript" src="https://arvia.chat/js/arvia.chat.js" ></script>
+  <script type="text/javascript" src="https://arvia.chat/js/arvia.chat.widget.js" ></script>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/NGO/1.jpg" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe to <b>FundNGO</b> to get latest news about important events.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/icons/r.svg" alt="QuakeRescue" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Just conducted a city-wide camp in Turkey
+      </p>
+
+      <p class="toast-title">
+        QuakeRescue
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">5 minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Mr. Harish</b>
+             - Top donator of the month!
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="rup">RUP &#8360;</option>
+            <option value="eur">EUR &euro;</option>
+            <option value="usd">USD &dollar;</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Hindi</option>
+            <option value="fr">Tamil</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/logo.svg" alt="FundNGO's logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter NGO name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn" onclick="window.location.href = 'index%20(2).html';">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn" onclick="window.location.href = 'Forum/index.html#';">
+            <ion-icon name="chatbox-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="notifications-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Children empowerment</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Indian</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">International</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Alert</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/NGO/1.jpg" alt="i1" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women empowerment</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Indian</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">International</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Alert</a>
+                </li>
+
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/NGO/2.jpg" alt="i2" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Hunger relief</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Indian</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">International</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Alert</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/NGO/2.jpg" alt="i3" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Old People</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Indian</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">International</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Alert</a>
+                </li>
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/NGO/3.jpg" alt="i4" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Disaster relief</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Indian</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">International</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Alert</a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Education</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Indian</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">International</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Alert</a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+          
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Medical</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Indian</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">International</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Alert</a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Emergency</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="notifications-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="chatbox-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Children empowerment</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Indian</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">International</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Alert</a>
+            </li>
+
+           
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women empowerment</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Indian</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">International</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Alert</a>
+            </li>
+
+            
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Hunger relief</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Indian</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">International</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Alert</a>
+            </li>
+
+            
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Old people</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Indian</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">International</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Alert</a>
+            </li>
+
+            
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Emergency</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Hindi</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Tamil</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">RUP &#8360;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/NGO/39.jpg" alt="news pic1" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Alert!</p>
+
+              <h2 class="banner-title">NGO in Trichy</h2>
+
+              <p class="banner-text">
+                just donate &#8360; <b>20</b>.00 per month
+              </p>
+
+              <a href="#" class="banner-btn">Donate now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/NGO/5.jpg" alt="news pic2" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Poverty relief</p>
+
+              <h2 class="banner-title">NGO near you!</h2>
+
+              <p class="banner-text">
+                just donate &#8360; <b>20</b>.00 per month
+              </p>
+
+              <a href="#" class="banner-btn">Donate now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/NGO/6.jpg"alt="news pic3" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Blood camp</p>
+
+              <h2 class="banner-title">NGO near you!</h2>
+
+              <p class="banner-text">
+                just donate &#8360; <b>20</b>.00 per month
+              </p>
+
+              <a href="#" class="banner-btn">Donate now</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/r.svg" alt="orphanage" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Children's fund</h3>
+
+                <p class="category-item-amount">(53)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/r.svg" alt="womenemp1" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Women empowerment</h3>
+
+                <p class="category-item-amount">(68)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+         
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/r.svg" alt="Medical2" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Medical</h3>
+
+                <p class="category-item-amount">(35)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/r.svg" alt="Dis1" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Disaster relief</h3>
+
+                <p class="category-item-amount">(39)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - NGO
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/r.svg" alt="blood1" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Medical</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Blood camp</p>
+                      <data value="5" class="stock" title="Available Stock">5</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">vaccine</p>
+                      <data value="4" class="stock" title="Available Stock">4</data>
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/r.svg" alt="edu1" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Education</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Children</p>
+                      <data value="5" class="stock" title="Available Stock">5</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Adult</p>
+                      <data value="3" class="stock" title="Available Stock">3</data>
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/r.svg" alt="edu1" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Education</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Children</p>
+                      <data value="5" class="stock" title="Available Stock">5</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Adult</p>
+                      <data value="3" class="stock" title="Available Stock">3</data>
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/r.svg" alt="edu1" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Education</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Children</p>
+                      <data value="5" class="stock" title="Available Stock">5</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Adult</p>
+                      <data value="3" class="stock" title="Available Stock">3</data>
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/r.svg" alt="edu1" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Education</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Children</p>
+                      <data value="5" class="stock" title="Available Stock">5</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Adult</p>
+                      <data value="3" class="stock" title="Available Stock">3</data>
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+
+              
+
+              
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">Suggested NGOs</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/NGO/7.jpg" alt="b1" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Medicinal</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/NGO/8.jpg" alt="b1" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Medicinal</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - NGO MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">New NGOs</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/9.jpg" alt="n1" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Blood camp</a>
+
+                      
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/9.jpg" alt="n1" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Blood camp</a>
+
+                      
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/10.jpg" alt="n1" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Blood camp</a>
+
+                      
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/11.jpg" alt="n1" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Blood camp</a>
+
+                      
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/12.jpg" alt="m1" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Medicine</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Blood</a>
+                
+                      
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/13.jpg" alt="m1" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Medicine</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Blood</a>
+                
+                      
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/14.jpg" alt="m1" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Medicine</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Blood</a>
+                
+                      
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/14.jpg" alt="m1" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Medicine</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Blood</a>
+                
+                      
+                
+                    </div>
+                
+                  </div>
+                
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Indian NGOs</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/15.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/16.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/17.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/19.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/20.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/20.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/21.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/19.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">International</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/21.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/21.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/21.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/22.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/22.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/23.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/24.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/NGO/25.jpg" alt="Indian" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Medicinal</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Blood</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - NGO FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title">Fundraiser</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/NGO/27.jpg" alt="s" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+
+                    <p class="showcase-desc">
+                     They do blood camp for blodd transfusion for cancer patients
+                    </p>
+
+                    
+
+                    <button class="add-cart-btn" onclick="window.location.href = 'index%20(4).html';">Donate now!</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          Blood received <b> 30 packs</b>
+                        </p>
+
+                        
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Camp ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">36</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase-container">
+              
+                <div class="showcase">
+              
+                  <div class="showcase-banner">
+                    <img src="./assets/NGO/27.jpg" alt="r1" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title">MBJ trust</a>
+                    </h3>
+              
+                    <p class="showcase-desc">
+                      They do blood donation camp and awarness about family planning
+                    </p>
+              
+                    
+              
+                    <button class="add-cart-btn" onclick="window.location.href = 'index%20(4).html';">Donate now</button>
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p> donation received <b>Rs.1000</b> </p>
+              
+                       
+                      </div>
+              
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    <div class="countdown-box">
+              
+                      <p class="countdown-desc">Camp ends in:</p>
+              
+                      <div class="countdown">
+                        <div class="countdown-content">
+                          <p class="display-number">36</p>
+                          <p class="display-text">Days</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - NGO GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">Top NGOs</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/NGO/26.jpg" alt="m1" width="300" class="product-img default">
+                  <img src="./assets/NGO/27.jpg" alt="ms" width="300" class="product-img hover">
+
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action" >
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action" onclick="window.location.href = 'index%20(4).html';">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Divya</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Divya Orphanage</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/28.jpg" alt="m2" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/29.jpg" alt="m2" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">TOP</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action" onclick="window.location.href = 'index%20(4).html';">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Victus</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Victus Trust</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+         
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/29.jpg" alt="m3" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/30.jpg" alt="m3" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action" onclick="window.location.href = 'index%20(4).html';">
+                      <ion-icon name="eye-outline" ></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Sam</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Sam Trust</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/31.jpg" alt="m4" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/31.jpg" alt="m4" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle pink">TOP</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action" onclick="window.location.href = 'index%20(4).html';">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Sowmiya</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Sowmiya trust</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/32.jpg" alt="m5" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/32.jpg" alt="m5" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Kathir</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Kathir NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/33.jpg" alt="m6" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/33.jpg" alt="m6" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">TOP</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Babu</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Babu NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/34.jpg" alt="m7" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/34.jpg" alt="m7" class="product-img hover" width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Jessie</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Jessi NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/35.jpg" alt="m8" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/35.jpg" alt="m8" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">TOP</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Harish</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Harish NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/36.jpg" alt="m8s" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/36.jpg" alt="m8s" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Reshma</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">REshma NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/37.jpg" alt="m88" class="product-img default"
+                    width="300">
+                  <img src="./assets/NGO/37.jpg" alt="Tm8" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">Top</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Gupta</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Gupts NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/38.jpg" alt="m6m" class="product-img default"
+                  width="300">
+                  <img src="./assets/NGO/38.jpg" alt="m6m" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Kavins</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Kavin NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/NGO/11.jpg"alt="m66"
+                    class="product-img default" width="300">
+                  <img src="./assets/NGO/12.jpg" alt="m66"
+                    class="product-img hover" width="300">
+              
+                  <p class="showcase-badge angle black">TOP</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Hospitals</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">MBJ NGO</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+
+          <!--
+            - TESTIMONIALS
+          -->
+
+          <div class="testimonial">
+
+            <h2 class="title">testimonial</h2>
+
+            <div class="testimonial-card">
+
+              <img src="./assets/NGO/14.jpg" alt="mk7" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name"> M B Joel</p>
+
+              <p class="testimonial-title">CEO & Founder Amudham</p>
+
+              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+
+              <p class="testimonial-desc">
+                FundNGO connected us with many other NGOS. 
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - CTA
+          -->
+
+          <div class="cta-container">
+
+            <img src="./assets/NGO/15.jpg" alt="mk9" class="cta-banner">
+
+            <a href="#" class="cta-content">
+
+              <p class="discount">Medical Camp</p>
+
+              <h2 class="cta-title">MBJ Hospitals</h2>
+
+              <p class="cta-text">Providing sponsors</p>
+
+              <button class="cta-btn">Donate Now</button>
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Our Services</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Connecting NGOs</h3>
+                  <p class="service-desc">More than 100 NGOs</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Join with Other NGOs</h3>
+                  <p class="service-desc">Inside India</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Updating with current affairs</h3>
+                  <p class="service-desc">Everyday</p>
+              
+                </div>
+              
+              
+              
+              
+              
+              
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+    <div class="blog">
+
+      <div class="container">
+
+        <div class="blog-container has-scrollbar">
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/NGO/16.jpg" alt="blog1" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">QuakeRescue</a>
+
+              <a href="#">
+                <h3 class="blog-title">Turkey suffers major earthquake.</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Mr Admin</cite> / <time datetime="2022-04-06">Apr 06, 2022</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/NGO/18.jpg" alt="blog1" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">QuakeRescue</a>
+
+              <a href="#">
+                <h3 class="blog-title">Turkey suffers major earthquake.</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Mr Admin</cite> / <time datetime="2022-04-06">Apr 06, 2022</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/NGO/19.jpg" alt="blog1" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">QuakeRescue</a>
+
+              <a href="#">
+                <h3 class="blog-title">Turkey suffers major earthquake.</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Mr Admin</cite> / <time datetime="2022-04-06">Apr 06, 2022</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/NGO/19.jpg" alt="blog1" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">QuakeRescue</a>
+
+              <a href="#">
+                <h3 class="blog-title">Turkey suffers major earthquake.</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Mr Admin</cite> / <time datetime="2023-01-11">Jan 11, 2023</time>
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Objective :</h3>
+
+          <a href="#" class="footer-category-link">Connects NGOs</a>
+          <a href="#" class="footer-category-link">Bridge between NGOs</a>
+          <a href="#" class="footer-category-link">Helps to communicate between NGOs</a>
+          <a href="#" class="footer-category-link">Form groups between NGOs</a>
+          <a href="#" class="footer-category-link">Connects NGOs</a>
+          <a href="#" class="footer-category-link">Bridge between NGOs</a>
+          <a href="#" class="footer-category-link">Helps to communicate between NGOs</a>
+          <a href="#" class="footer-category-link">Form groups between NGOs</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Activites we do:</h3>
+        
+          <a href="#" class="footer-category-link">Connects NGOs</a>
+          <a href="#" class="footer-category-link">Bridge between NGOs</a>
+          <a href="#" class="footer-category-link">Helps to communicate between NGOs</a>
+          <a href="#" class="footer-category-link">Form groups between NGOs</a>
+          <a href="#" class="footer-category-link">Connects NGOs</a>
+          <a href="#" class="footer-category-link">Bridge between NGOs</a>
+          <a href="#" class="footer-category-link">Helps to communicate between NGOs</a>
+          <a href="#" class="footer-category-link">Form groups between NGOs</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Welfare activities :</h3>
+        
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Activites :</h3>
+        
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+          <a href="#" class="footer-category-link">children welfare</a>
+          <a href="#" class="footer-category-link">education</a>
+          <a href="#" class="footer-category-link">disaster</a>
+          <a href="#" class="footer-category-link">Women welfare</a>
+          <a href="#" class="footer-category-link">Olde people welfare</a>
+          <a href="#" class="footer-category-link">Blood donation</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Some activities which NGOs do</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Education</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Old people welfare</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">women welfare</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">children welfare</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Disaster</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+         
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Upcoming camps</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best camps</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          
+        
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Upcoming camps</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best Camp</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Ponmeni,Madurai 625010, Tamilnadu
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">FundNGO</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+  <script type="text/javascript">
+        
+    // Instantiate arvia chat widget with your project id
+    var arviaChatWidget = new ArviaChatWidget('5b4f145ac4dbc95dcf926a52');
+    arviaChatWidget.setTestUser(true);
+    arviaChatWidget.init();
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
